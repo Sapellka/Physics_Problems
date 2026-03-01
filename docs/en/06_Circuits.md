@@ -1,10 +1,3 @@
----
-theme: gaia
-_class: lead
-paginate: true
-backgroundColor: #fff
----
-
 # Section 6: Circuits
 
 ## 1. Series and Parallel Circuit

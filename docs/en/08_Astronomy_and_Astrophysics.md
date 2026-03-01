@@ -54,11 +54,9 @@ Calculate:
 
 4. How much the value of $d_{ES}$ changes if $\theta = 89.75^\circ$ (a historically quoted value attributed to Aristarchus from Samos) is used instead of $89.85^\circ$. Briefly comment on the sensitivity of the result to the angle measurement and what this implies for Aristarchus’ method.
 
----
-
 ## 10. Measuring the Height of the Atmosphere
 
-A medieval astronomer in Al-Andalus, Al-Zarqali (Arzachel) (1029–1087 AD), attempted to estimate the height of the Earth’s atmosphere using a geometric method based on sunset timing. He measured the interval between sunset and the moment when faint stars first became visible, assuming that this corresponds to the Sun reaching a true geometric depression angle $\phi$ below the horizon. A chronicle reports that on a clear evening the time between sunset and the first appearance of faint stars was $t = 40 minutes.
+A medieval astronomer in Al-Andalus, Al-Zarqali (Arzachel) (1029–1087 AD), attempted to estimate the height of the Earth’s atmosphere using a geometric method based on sunset timing. He measured the interval between sunset and the moment when faint stars first became visible, assuming that this corresponds to the Sun reaching a true geometric depression angle $\phi$ below the horizon. A chronicle reports that on a clear evening the time between sunset and the first appearance of faint stars was $t = 40$ minutes.
 
 
 Assume:
@@ -70,7 +68,9 @@ Assume:
   $$
 
 Find:
+
 1. The solar depression angle $\phi$ (in degrees) implied by the measured time $t$.
+  
 2. The atmospheric height $h$ in km.
 
 
