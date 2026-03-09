@@ -10,7 +10,7 @@ Two identical devices, each playing a series of 1-hour episodes of a TV show, we
 
 ## 3. Time Dilation in Real Life
 
-A muon has an average lifetime of $2.20\,\mu\text{s}$ in its own rest frame. If it travels at $0.990c$, what will its average lifetime be as measured by an observer on Earth?
+A muon has the average lifetime of $2.20\,\mu\text{s}$ in its own rest frame. If it travels at $0.990c$, what will its average lifetime be as measured by an observer on Earth?
 
 ## 4. High-Energy Physics
 

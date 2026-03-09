@@ -12,3 +12,7 @@
 - [Solution 8](solution_08.md)
 - [Solution 9](solution_09.md)
 - [Solution 10](solution_10.md)
+- [Solution 11](solution_11.md)
+- [Solution 12](solution_12.md)
+- [Solution 13](solution_13.md)
+- [Solution 14](solution_14.md)

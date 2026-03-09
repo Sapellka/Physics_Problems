@@ -46,4 +46,4 @@ A galaxy is receding from Earth at a speed of $5 \times 10^6 \text{ m/s}$. It em
 
 ## 10. Cosmic Microwave Background
 
-The Cosmic Microwave Background (CMB) radiation now has a temperature of about 2.7 K. When it was emitted during the recombination era, it had a temperature of about 3000 K. What was the wavelength of the peak intensity of the CMB radiation at the time of recombination, and what is its wavelength now? Use Wien's displacement law: $\lambda_{peak} = \frac{b}{T}$, where $b \approx 2.898 \times 10^{-3} \text{ m K}$ is Wien's constant.
+The Cosmic Microwave Background (CMB) radiation now has the temperature of about 2.7 K. When it was emitted during the recombination era, it had a temperature of about 3000 K. What was the wavelength of the peak intensity of the CMB radiation at the time of recombination, and what is its wavelength now? Use Wien's displacement law: $\lambda_{peak} = \frac{b}{T}$, where $b \approx 2.898 \times 10^{-3} \text{ m K}$ is Wien's constant.
