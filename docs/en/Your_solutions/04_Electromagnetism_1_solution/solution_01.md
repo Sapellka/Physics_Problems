@@ -70,3 +70,6 @@ The direction is undefined, since the net force is zero.
 ## Interpretation
 
 Although each individual corner charge exerts a nonzero force on the charge at the center, the square symmetry makes the total force cancel exactly.
+
+<img width="861" height="298" alt="image" src="https://github.com/user-attachments/assets/3111e537-ac4c-4449-a6d4-3b37ee514e31" />
+
