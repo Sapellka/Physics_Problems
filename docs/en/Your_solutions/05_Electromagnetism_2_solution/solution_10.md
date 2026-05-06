@@ -1,101 +1,55 @@
-# Task 10 – Magnetic Force on a Current-Carrying Wire
+# Task 10 – Speed of Light in Diamond
 
 ## Problem Statement
 
-A straight wire of length
+Determine the speed of light in diamond, which has refractive index
 
 $$
-L = 2.0 \text{ m}
+n = 2.42
 $$
-
-carries current
-
-$$
-I = 10 \text{ A}
-$$
-
-It is placed in a uniform magnetic field
-
-$$
-B = 0.5 \text{ T}
-$$
-
-Determine the magnetic force on the wire for:
-
-- a) $\theta = 90^\circ$
-- b) $\theta = 45^\circ$
-- c) $\theta = 0^\circ$
-
-where $\theta$ is the angle between the wire and the magnetic field.
 
 ## Theory
 
-The magnitude of the magnetic force on a straight current-carrying wire is
+The speed of light in a medium is related to its refractive index by
 
 $$
-F = ILB \sin \theta
+v = \frac{c}{n}
 $$
 
-The force is maximal when the wire is perpendicular to the field and zero when the wire is parallel to the field.
+where
+
+$$
+c \approx 3.0 \times 10^8 \text{ m/s}
+$$
+
+is the speed of light in vacuum.
 
 ## Step-by-Step Solution
 
-First compute the constant factor:
+Use
 
 $$
-ILB = (10)(2.0)(0.5) = 10
+v = \frac{c}{n}
 $$
 
-So,
+Substitute the given values:
 
 $$
-F = 10 \sin \theta
-$$
-
-### a) For $\theta = 90^\circ$
-
-$$
-F = 10 \sin 90^\circ = 10 \cdot 1 = 10 \text{ N}
-$$
-
-### b) For $\theta = 45^\circ$
-
-$$
-F = 10 \sin 45^\circ = 10 \cdot \frac{\sqrt{2}}{2}
+v = \frac{3.0 \times 10^8}{2.42}
 $$
 
 $$
-F = 5\sqrt{2} \text{ N} \approx 7.07 \text{ N}
-$$
-
-### c) For $\theta = 0^\circ$
-
-$$
-F = 10 \sin 0^\circ = 0
+v \approx 1.24 \times 10^8 \text{ m/s}
 $$
 
 ## Final Result
 
-The magnetic force is:
-
-a)
+The speed of light in diamond is
 
 $$
-F = 10 \text{ N}
-$$
-
-b)
-
-$$
-F = 5\sqrt{2} \text{ N} \approx 7.07 \text{ N}
-$$
-
-c)
-
-$$
-F = 0
+v \approx 1.24 \times 10^8 \text{ m/s}
 $$
 
 ## Interpretation
 
-Only the component of the wire length perpendicular to the magnetic field contributes to the magnetic force. That is why the force is largest at $90^\circ$ and vanishes at $0^\circ$.
+A larger refractive index means a smaller propagation speed in the medium. Diamond has a relatively high refractive index, so light travels through it much more slowly than in vacuum.
