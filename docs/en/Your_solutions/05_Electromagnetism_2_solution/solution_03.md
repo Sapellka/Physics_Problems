@@ -1,119 +1,91 @@
-# Task 03 – Electrostatic Equilibrium Between Two Charges
+# Task 03 – Biot-Savart Law for a Small Current Segment
 
 ## Problem Statement
 
-Two positive charges are placed on a line:
+A small wire segment of length
 
 $$
-q_1 = +4 \text{ C}, \qquad q_2 = +9 \text{ C}
+\Delta l = 0.1 \text{ m}
 $$
 
-They are separated by a distance of
+carries current
 
 $$
-2 \text{ m}
+I = 3 \text{ A}
 $$
 
-A third charge
+The segment is located at distance
 
 $$
-q_3 = +1 \text{ C}
+r = 0.2 \text{ m}
 $$
 
-is placed somewhere on the line between them.
+from point $P$. The segment is perpendicular to the line connecting it to point $P$.
 
-Determine the equilibrium position of $q_3$.
+Determine the magnetic field at point $P$.
 
 ## Theory
 
-The charge $q_3$ is in equilibrium where the net electric force on it is zero.
-
-Since both source charges are positive, the charge $q_3$ experiences repulsion from both sides. Between the charges, these two repulsive forces act in opposite directions, so equilibrium is possible there.
-
-Using Coulomb's law, the force magnitudes must satisfy
+For a small current element, the Biot-Savart law gives
 
 $$
-k \frac{q_1 q_3}{x^2} = k \frac{q_2 q_3}{(2-x)^2}
+dB = \frac{\mu_0}{4\pi} \frac{I \Delta l \sin \theta}{r^2}
+$$
+
+Here,
+
+$$
+\theta = 90^\circ
+$$
+
+so
+
+$$
+\sin \theta = 1
 $$
 
 ## Step-by-Step Solution
 
-Let the equilibrium point be at distance
+Use
 
 $$
-x
+B = \frac{\mu_0}{4\pi} \frac{I \Delta l}{r^2}
 $$
 
-from the charge $q_1$.
-
-Then the distance to $q_2$ is
+Since
 
 $$
-2 - x
+\frac{\mu_0}{4\pi} = 10^{-7} \text{ T m/A}
 $$
 
-Set the force magnitudes equal:
+substitute the data:
 
 $$
-k \frac{4 \cdot 1}{x^2} = k \frac{9 \cdot 1}{(2-x)^2}
-$$
-
-Cancel the common factors:
-
-$$
-\frac{4}{x^2} = \frac{9}{(2-x)^2}
-$$
-
-Take square roots:
-
-$$
-\frac{2}{x} = \frac{3}{2-x}
-$$
-
-Cross-multiply:
-
-$$
-2(2-x) = 3x
+B = 10^{-7} \frac{(3)(0.1)}{(0.2)^2}
 $$
 
 $$
-4 - 2x = 3x
+B = 10^{-7} \frac{0.3}{0.04}
 $$
 
 $$
-4 = 5x
+B = 10^{-7} \cdot 7.5
 $$
 
 $$
-x = 0.8 \text{ m}
+B = 7.5 \times 10^{-7} \text{ T}
 $$
 
 ## Final Result
 
-The equilibrium position is
+The magnetic field at point $P$ is
 
 $$
-0.8 \text{ m}
+B = 7.5 \times 10^{-7} \text{ T}
 $$
 
-from the charge
-
-$$
-q_1 = +4 \text{ C}
-$$
-
-and therefore
-
-$$
-1.2 \text{ m}
-$$
-
-from the charge
-
-$$
-q_2 = +9 \text{ C}
-$$
+Its direction is given by the right-hand rule.
 
 ## Interpretation
 
-The equilibrium point lies closer to the smaller source charge. This is necessary because the weaker charge must act at a shorter distance to balance the stronger repulsion from the larger charge.
+The field produced by a small current element decreases with the square of the distance. The field is maximal here because the segment is perpendicular to the line joining it to the observation point.
