@@ -1,139 +1,87 @@
-# Task 04 – Electric and Gravitational Forces in a Hydrogen Atom
+# Task 04 – Magnetic Torque on a Current Loop
 
 ## Problem Statement
 
-Compare the electric force and the gravitational force between an electron and a proton separated by the average hydrogen-atom distance
+A rectangular loop has dimensions
 
 $$
-r \approx 5.3 \times 10^{-11} \text{ m}
+10 \text{ cm} \times 5 \text{ cm}
 $$
 
-Determine:
-
-- the electric force magnitude,
-- the gravitational force magnitude,
-- the ratio
+and carries current
 
 $$
-\frac{F_e}{F_g}
+I = 2 \text{ A}
 $$
+
+A uniform magnetic field of magnitude
+
+$$
+B = 0.3 \text{ T}
+$$
+
+is applied parallel to the plane of the loop.
+
+Determine the magnetic torque on the loop.
 
 ## Theory
 
-The electric force between two charges is
+The torque on a current loop is
 
 $$
-F_e = k \frac{e^2}{r^2}
+\tau = NIAB \sin \phi
 $$
 
-The gravitational force between two masses is
+where:
+
+- $N$ is the number of turns,
+- $A$ is the loop area,
+- $\phi$ is the angle between the loop's normal vector and the magnetic field.
+
+If the field is parallel to the plane of the loop, then it is perpendicular to the normal vector, so
 
 $$
-F_g = G \frac{m_e m_p}{r^2}
+\phi = 90^\circ
 $$
 
-Since both forces depend on
-
-$$
-\frac{1}{r^2}
-$$
-
-their ratio is independent of distance:
-
-$$
-\frac{F_e}{F_g} = \frac{k e^2}{G m_e m_p}
-$$
+and the torque is maximal.
 
 ## Step-by-Step Solution
 
-### 1. Electric force
-
-Use
+Assume a single loop:
 
 $$
-F_e = k \frac{e^2}{r^2}
+N = 1
 $$
 
-With standard constants,
+The area is
 
 $$
-k \approx 8.99 \times 10^9
+A = (0.10)(0.05) = 0.005 \text{ m}^2
 $$
 
-$$
-e \approx 1.60 \times 10^{-19} \text{ C}
-$$
+Now use
 
 $$
-r \approx 5.3 \times 10^{-11} \text{ m}
-$$
-
-Substituting gives
-
-$$
-F_e \approx 8.21 \times 10^{-8} \text{ N}
-$$
-
-### 2. Gravitational force
-
-Use
-
-$$
-F_g = G \frac{m_e m_p}{r^2}
-$$
-
-With
-
-$$
-G \approx 6.67 \times 10^{-11}
+\tau = NIAB \sin 90^\circ
 $$
 
 $$
-m_e \approx 9.11 \times 10^{-31} \text{ kg}
+\tau = (1)(2)(0.005)(0.3)(1)
 $$
 
 $$
-m_p \approx 1.67 \times 10^{-27} \text{ kg}
-$$
-
-Substituting gives
-
-$$
-F_g \approx 3.62 \times 10^{-47} \text{ N}
-$$
-
-### 3. Ratio
-
-Now compute
-
-$$
-\frac{F_e}{F_g} \approx \frac{8.21 \times 10^{-8}}{3.62 \times 10^{-47}}
-$$
-
-$$
-\frac{F_e}{F_g} \approx 2.27 \times 10^{39}
+\tau = 0.003 \text{ N m}
 $$
 
 ## Final Result
 
-The electric force magnitude is approximately
+The magnetic torque is
 
 $$
-F_e \approx 8.21 \times 10^{-8} \text{ N}
-$$
-
-The gravitational force magnitude is approximately
-
-$$
-F_g \approx 3.62 \times 10^{-47} \text{ N}
-$$
-
-The ratio is
-
-$$
-\frac{F_e}{F_g} \approx 2.27 \times 10^{39}
+\tau = 3.0 \times 10^{-3} \text{ N m}
 $$
 
 ## Interpretation
 
-At atomic scales, the electric attraction between the electron and proton is enormously stronger than their gravitational attraction. This is why gravity is negligible in atomic structure.
+Because the field is parallel to the loop plane, the torque is at its maximum value. The field tends to rotate the loop so that its magnetic moment aligns with the field.
