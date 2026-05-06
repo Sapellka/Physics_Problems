@@ -1,93 +1,85 @@
-# Task 02 – Electric Potential at the Center of a Square
+# Task 02 – Ampere's Law and Magnetic Field Between Two Wires
 
 ## Problem Statement
 
-Point charges
+Two long parallel wires are
 
 $$
-+1 \text{ C}, \quad -2 \text{ C}, \quad +3 \text{ C}, \quad -4 \text{ C}
+10 \text{ cm} = 0.10 \text{ m}
 $$
 
-are placed at the corners of a square of side length
+apart and carry currents of
 
 $$
-1.0 \text{ m}
+5 \text{ A}
 $$
 
-Determine the electric potential at the center of the square.
+in opposite directions. Determine the magnitude and direction of the magnetic field at the midpoint between the wires.
 
 ## Theory
 
-Electric potential is a scalar quantity. For a system of point charges,
+The magnetic field produced by one long straight wire at distance $r$ is
 
 $$
-V = k \sum_i \frac{q_i}{r_i}
+B = \frac{\mu_0 I}{2\pi r}
 $$
 
-At the center of a square, all four corner charges are at the same distance from the center, so the potentials add algebraically.
+where
+
+$$
+\mu_0 = 4\pi \times 10^{-7} \text{ T m/A}
+$$
+
+At the midpoint, the fields from the two wires have equal magnitude. For opposite currents, the directions of the two magnetic fields at the midpoint are the same, so the fields add.
 
 ## Step-by-Step Solution
 
-### 1. Distance from the center to any corner
-
-For a square of side length
+The midpoint is at distance
 
 $$
-a = 1.0 \text{ m}
+r = \frac{0.10}{2} = 0.05 \text{ m}
 $$
 
-the distance from the center to a corner is half the diagonal:
+from each wire.
+
+### 1. Field from one wire
 
 $$
-r = \frac{a\sqrt{2}}{2} = \frac{1}{\sqrt{2}} \text{ m}
+B_1 = \frac{\mu_0 I}{2\pi r}
 $$
 
-### 2. Sum of the charges
-
-The total charge contribution is
+Substitute the values:
 
 $$
-q_{\text{sum}} = 1 - 2 + 3 - 4 = -2 \text{ C}
-$$
-
-### 3. Potential at the center
-
-Thus,
-
-$$
-V = k \frac{q_{\text{sum}}}{r}
-$$
-
-Substitute:
-
-$$
-V = k \frac{-2}{1/\sqrt{2}}
+B_1 = \frac{(4\pi \times 10^{-7})(5)}{2\pi(0.05)}
 $$
 
 $$
-V = -2\sqrt{2}\,k
+B_1 = 2.0 \times 10^{-5} \text{ T}
 $$
 
-Using
+### 2. Total field
+
+Since the currents are opposite, the fields at the midpoint point in the same direction. Therefore,
 
 $$
-k \approx 8.99 \times 10^9 \text{ N m}^2 \text{/C}^2
+B_{\text{tot}} = 2B_1
 $$
 
-gives
-
 $$
-V \approx -2.54 \times 10^{10} \text{ V}
+B_{\text{tot}} = 4.0 \times 10^{-5} \text{ T}
 $$
 
 ## Final Result
 
-The electric potential at the center is
+The magnetic field magnitude at the midpoint is
 
 $$
-V = -2\sqrt{2}\,k \approx -2.54 \times 10^{10} \text{ V}
+B_{\text{tot}} = 4.0 \times 10^{-5} \text{ T}
 $$
+
+The direction is perpendicular to the plane containing the wires and the midpoint. For example, if the left wire carries current upward and the right wire carries current downward, the field at the midpoint is into the page. Reversing both currents would reverse the field direction.
 
 ## Interpretation
 
-Potential is a scalar, so only the algebraic sum of the charges matters here. Since the total effective contribution is negative, the potential at the center is negative.
+Opposite currents make the magnetic fields reinforce each other at the midpoint. That is why the net field is the sum of the two equal contributions rather than a cancellation.
