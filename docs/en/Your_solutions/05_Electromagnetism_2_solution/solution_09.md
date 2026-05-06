@@ -1,109 +1,81 @@
-# Task 09 – Vector Lorentz Force on a Proton
+# Task 09 – Refraction and Snell's Law
 
 ## Problem Statement
 
-A proton moves with velocity
+A light ray travels from air
 
 $$
-\vec{v} = (2\hat{i} - 4\hat{j} + \hat{k}) \text{ m/s}
+n_1 = 1.00
 $$
 
-in a magnetic field
+into glass
 
 $$
-\vec{B} = (\hat{i} + 2\hat{j} - \hat{k}) \text{ T}
+n_2 = 1.50
 $$
 
-Determine the magnitude of the magnetic force acting on the proton.
+If the angle of incidence is
+
+$$
+\theta_1 = 30^\circ
+$$
+
+determine the angle of refraction.
 
 ## Theory
 
-The magnetic force on a charged particle is
+Snell's law is
 
 $$
-\vec{F} = q \, \vec{v} \times \vec{B}
+n_1 \sin \theta_1 = n_2 \sin \theta_2
 $$
 
-Its magnitude is
-
-$$
-F = q |\vec{v} \times \vec{B}|
-$$
-
-For a proton,
-
-$$
-q = e \approx 1.60 \times 10^{-19} \text{ C}
-$$
+When light enters a medium with higher refractive index, it bends toward the normal, so the refracted angle is smaller than the incident angle.
 
 ## Step-by-Step Solution
 
-### 1. Compute the cross product
-
-Write the vectors in component form:
+Apply Snell's law:
 
 $$
-\vec{v} = \begin{pmatrix} 2 \\ -4 \\ 1 \end{pmatrix}
+1.00 \sin 30^\circ = 1.50 \sin \theta_2
 $$
 
-$$
-\vec{B} = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix}
-$$
-
-Then
+Since
 
 $$
-\vec{v} \times \vec{B} = \begin{pmatrix}
-(-4)(-1) - (1)(2) \\
-(1)(1) - (2)(-1) \\
-(2)(2) - (-4)(1)
-\end{pmatrix}
+\sin 30^\circ = 0.5
 $$
 
-So,
+this becomes
 
 $$
-\vec{v} \times \vec{B} = \begin{pmatrix} 2 \\ 3 \\ 8 \end{pmatrix}
+0.5 = 1.50 \sin \theta_2
 $$
 
-### 2. Magnitude of the cross product
+Therefore,
 
 $$
-|\vec{v} \times \vec{B}| = \sqrt{2^2 + 3^2 + 8^2}
+\sin \theta_2 = \frac{0.5}{1.50} = \frac{1}{3}
+$$
+
+Now take the inverse sine:
+
+$$
+\theta_2 = \sin^{-1}\left( \frac{1}{3} \right)
 $$
 
 $$
-|\vec{v} \times \vec{B}| = \sqrt{4 + 9 + 64} = \sqrt{77}
-$$
-
-### 3. Force magnitude
-
-Multiply by the proton charge:
-
-$$
-F = e\sqrt{77}
-$$
-
-Using
-
-$$
-e \approx 1.60 \times 10^{-19} \text{ C}
-$$
-
-gives
-
-$$
-F \approx 1.40 \times 10^{-18} \text{ N}
+\theta_2 \approx 19.47^\circ
 $$
 
 ## Final Result
 
-The magnitude of the magnetic force is
+The angle of refraction is
 
 $$
-F = e\sqrt{77} \approx 1.40 \times 10^{-18} \text{ N}
+\theta_2 \approx 19.5^\circ
 $$
 
 ## Interpretation
 
-The force depends only on the part of the velocity perpendicular to the magnetic field. The cross product automatically extracts that perpendicular contribution.
+Because glass has a higher refractive index than air, light slows down and bends toward the normal as it enters the glass.
