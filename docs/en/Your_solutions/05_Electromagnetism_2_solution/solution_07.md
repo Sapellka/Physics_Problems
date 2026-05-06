@@ -1,111 +1,78 @@
-# Task 07 – Cyclotron Motion of an Electron
+# Task 07 – Wavelength, Frequency, and Visible Color
 
 ## Problem Statement
 
-An electron is accelerated from rest through a potential difference of
+The human eye is most sensitive to light with wavelength
 
 $$
-5000 \text{ V}
+\lambda = 550 \text{ nm}
 $$
 
-It then enters a region of uniform magnetic field
+Determine:
 
-$$
-B = 0.1 \text{ T}
-$$
-
-perpendicular to its velocity.
-
-Determine the radius of the circular path.
+- the corresponding visible color,
+- the frequency of this light.
 
 ## Theory
 
-When a charged particle is accelerated through a potential difference $V$, its gained kinetic energy is
+Visible light around
 
 $$
-eV = \frac{1}{2}mv^2
+550 \text{ nm}
 $$
 
-If the particle then enters a magnetic field perpendicular to its velocity, the magnetic force provides the centripetal force:
+lies in the green region of the electromagnetic spectrum.
+
+The relation between frequency and wavelength is
 
 $$
-qvB = \frac{mv^2}{r}
+c = f\lambda
 $$
 
-Thus,
+Therefore,
 
 $$
-r = \frac{mv}{qB}
+f = \frac{c}{\lambda}
 $$
 
 ## Step-by-Step Solution
 
-### 1. Find the speed after acceleration
-
-Use
+Convert the wavelength to meters:
 
 $$
-eV = \frac{1}{2}mv^2
+550 \text{ nm} = 550 \times 10^{-9} \text{ m} = 5.50 \times 10^{-7} \text{ m}
 $$
 
-Solve for $v$:
+Now compute the frequency:
 
 $$
-v = \sqrt{\frac{2eV}{m}}
-$$
-
-For the electron,
-
-$$
-e \approx 1.60 \times 10^{-19} \text{ C}
+f = \frac{3.0 \times 10^8}{5.50 \times 10^{-7}}
 $$
 
 $$
-m_e \approx 9.11 \times 10^{-31} \text{ kg}
-$$
-
-Substitute:
-
-$$
-v = \sqrt{\frac{2(1.60 \times 10^{-19})(5000)}{9.11 \times 10^{-31}}}
-$$
-
-$$
-v \approx 4.19 \times 10^7 \text{ m/s}
-$$
-
-### 2. Find the radius
-
-Use
-
-$$
-r = \frac{mv}{eB}
-$$
-
-Substitute the values:
-
-$$
-r = \frac{(9.11 \times 10^{-31})(4.19 \times 10^7)}{(1.60 \times 10^{-19})(0.1)}
-$$
-
-$$
-r \approx 2.38 \times 10^{-3} \text{ m}
+f \approx 5.45 \times 10^{14} \text{ Hz}
 $$
 
 ## Final Result
 
-The radius of the circular path is
+The wavelength
 
 $$
-r \approx 2.38 \times 10^{-3} \text{ m}
+550 \text{ nm}
 $$
 
-or approximately
+corresponds approximately to
 
 $$
-2.38 \text{ mm}
+\text{green light}
+$$
+
+Its frequency is
+
+$$
+f \approx 5.45 \times 10^{14} \text{ Hz}
 $$
 
 ## Interpretation
 
-The electron moves in a very small circular orbit because its mass is tiny, so even a modest magnetic field bends its motion strongly.
+In visible light, shorter wavelengths correspond to bluer colors and longer wavelengths correspond to redder colors. A wavelength near $550 \text{ nm}$ is near the region of strongest visual sensitivity.
