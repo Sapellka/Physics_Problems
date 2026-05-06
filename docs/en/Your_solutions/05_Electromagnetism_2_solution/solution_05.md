@@ -1,85 +1,154 @@
-# Task 05 – Electric Field Required for Proton Levitation
+# Task 05 – Energy Stored in a Parallel-Plate Capacitor
 
 ## Problem Statement
 
-Determine the electric field strength required to make a proton levitate against Earth's gravity.
-
-Use:
+A parallel-plate capacitor has:
 
 $$
-m_p \approx 1.67 \times 10^{-27} \text{ kg}
+S = 0.02 \text{ m}^2
 $$
 
 $$
-e \approx 1.6 \times 10^{-19} \text{ C}
+d = 5 \text{ mm} = 0.005 \text{ m}
 $$
 
 $$
-g \approx 9.8 \text{ m/s}^2
+V = 500 \text{ V}
 $$
+
+Determine:
+
+1. the capacitance $C$,
+2. the stored energy,
+3. the electric field strength between the plates,
+4. the attractive force between the plates.
 
 ## Theory
 
-For levitation, the upward electric force must balance the downward gravitational force:
+For a parallel-plate capacitor in air or vacuum,
 
 $$
-qE = mg
+C = \varepsilon_0 \frac{S}{d}
 $$
 
-Hence, the required electric field is
+The stored energy is
 
 $$
-E = \frac{mg}{q}
+W = \frac{1}{2} C V^2
 $$
 
-Since a proton has positive charge, the electric field must point upward to produce an upward electric force.
+The electric field between the plates is
+
+$$
+E = \frac{V}{d}
+$$
+
+The attractive force between the plates can be found from the electric pressure, giving
+
+$$
+F = \frac{1}{2} \varepsilon_0 E^2 S
+$$
 
 ## Step-by-Step Solution
 
-Set electric force equal to weight:
+### 1. Capacitance
+
+Use
 
 $$
-eE = m_p g
+C = \varepsilon_0 \frac{S}{d}
 $$
 
-Solve for $E$:
+Substitute the values:
 
 $$
-E = \frac{m_p g}{e}
-$$
-
-Substitute the given values:
-
-$$
-E = \frac{(1.67 \times 10^{-27})(9.8)}{1.6 \times 10^{-19}}
+C = (8.854 \times 10^{-12}) \frac{0.02}{0.005}
 $$
 
 $$
-E \approx 1.02 \times 10^{-7} \text{ N/C}
+C = (8.854 \times 10^{-12})(4)
 $$
 
-Since
-
 $$
-1 \text{ N/C} = 1 \text{ V/m}
+C = 3.54 \times 10^{-11} \text{ F}
 $$
 
-this is also
+### 2. Stored energy
+
+Use
 
 $$
-E \approx 1.02 \times 10^{-7} \text{ V/m}
+W = \frac{1}{2} C V^2
+$$
+
+$$
+W = \frac{1}{2}(3.54 \times 10^{-11})(500)^2
+$$
+
+$$
+W \approx 4.43 \times 10^{-6} \text{ J}
+$$
+
+### 3. Electric field
+
+Use
+
+$$
+E = \frac{V}{d}
+$$
+
+$$
+E = \frac{500}{0.005}
+$$
+
+$$
+E = 1.0 \times 10^5 \text{ V/m}
+$$
+
+### 4. Force of attraction
+
+Use
+
+$$
+F = \frac{1}{2} \varepsilon_0 E^2 S
+$$
+
+Substitute the values:
+
+$$
+F = \frac{1}{2}(8.854 \times 10^{-12})(1.0 \times 10^5)^2(0.02)
+$$
+
+$$
+F \approx 8.85 \times 10^{-4} \text{ N}
 $$
 
 ## Final Result
 
-The required electric field strength is
+The capacitance is
 
 $$
-E \approx 1.02 \times 10^{-7} \text{ N/C}
+C = 3.54 \times 10^{-11} \text{ F}
 $$
 
-directed upward.
+The stored energy is
+
+$$
+W \approx 4.43 \times 10^{-6} \text{ J}
+$$
+
+The electric field intensity is
+
+$$
+E = 1.0 \times 10^5 \text{ V/m}
+$$
+
+The attractive force between the plates is
+
+$$
+F \approx 8.85 \times 10^{-4} \text{ N}
+$$
 
 ## Interpretation
 
-The proton is extremely light, so only a very small electric field is needed to balance its weight.
+A larger plate area increases capacitance, while a larger separation decreases it. The electric field is uniform in the ideal parallel-plate model, and the plates attract each other because opposite charges build up on facing surfaces.
