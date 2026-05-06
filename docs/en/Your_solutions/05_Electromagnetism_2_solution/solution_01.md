@@ -1,72 +1,63 @@
-# Task 01 – Coulomb's Law and Symmetry
+# Task 01 – Gauss's Law
 
 ## Problem Statement
 
-Four point charges of
+A point charge
 
 $$
-+1.0 \text{ C}
+q = +2 \text{ C}
 $$
 
-are placed at the corners of a square of side length
+is located at the origin. Calculate the electric flux through a spherical surface of radius
 
 $$
-1.0 \text{ m}
+1 \text{ m}
 $$
 
-A charge of
-
-$$
--2.0 \text{ C}
-$$
-
-is placed at the center of the square.
-
-Determine the magnitude and direction of the electric force on the central charge.
+centered at the origin.
 
 ## Theory
 
-The electric force between two point charges is given by Coulomb's law:
+Gauss's law states that the total electric flux through any closed surface is
 
 $$
-F = k \frac{|q_1 q_2|}{r^2}
+\Phi_E = \frac{q_{\text{enc}}}{\varepsilon_0}
 $$
 
-The electric force is a vector quantity, so forces from all four corner charges must be added vectorially.
+where
 
-For highly symmetric charge configurations, symmetry can determine the net force without computing each magnitude separately.
+$$
+\varepsilon_0 \approx 8.854 \times 10^{-12} \text{ C}^2 \text{/N m}^2
+$$
+
+For a spherical surface centered on a point charge, the radius does not affect the total flux.
 
 ## Step-by-Step Solution
 
-The central charge is at the same distance from all four corners.
-
-Each corner charge is positive, while the central charge is negative, so each individual force on the central charge is attractive and points from the center toward that corner.
-
-Thus, there are four forces of equal magnitude:
-
-- one toward the upper-right corner,
-- one toward the upper-left corner,
-- one toward the lower-right corner,
-- one toward the lower-left corner.
-
-The force from each corner is canceled by the force from the diagonally opposite corner.
-
-Therefore, the vector sum of all four forces is
+The enclosed charge is
 
 $$
-\vec{F}_{\text{net}} = \vec{0}
+q_{\text{enc}} = 2 \text{ C}
+$$
+
+Therefore,
+
+$$
+\Phi_E = \frac{2}{8.854 \times 10^{-12}}
+$$
+
+$$
+\Phi_E \approx 2.26 \times 10^{11} \text{ N m}^2 \text{/C}
 $$
 
 ## Final Result
 
-The magnitude of the electric force on the central charge is
+The electric flux through the sphere is
 
 $$
-F_{\text{net}} = 0
+\Phi_E \approx 2.26 \times 10^{11} \text{ N m}^2 \text{/C}
 $$
-
-The direction is undefined, since the net force is zero.
 
 ## Interpretation
 
-Although each individual corner charge exerts a nonzero force on the charge at the center, the square symmetry makes the total force cancel exactly.
+Because the enclosed charge is positive, the net flux is outward. The total flux depends only on the enclosed charge, not on the size of the spherical surface.
