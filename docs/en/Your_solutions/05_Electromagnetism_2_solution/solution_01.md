@@ -61,3 +61,6 @@ $$
 ## Interpretation
 
 Because the enclosed charge is positive, the net flux is outward. The total flux depends only on the enclosed charge, not on the size of the spherical surface.
+
+<img width="1269" height="743" alt="image" src="https://github.com/user-attachments/assets/b5a79f7e-d100-4bdc-b814-dfda4d4561ab" />
+
