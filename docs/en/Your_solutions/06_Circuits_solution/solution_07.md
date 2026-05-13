@@ -97,6 +97,9 @@ $$
 W = 5.0 \times 10^{-4} \text{ J}
 $$
 
+<img width="445" height="382" alt="image" src="https://github.com/user-attachments/assets/e23f318f-abc9-40b1-8fe1-6a4ec3e8e8f2" />
+
+
 ## Interpretation
 
 In a parallel connection, the capacitances add directly, so both the total charge and total stored energy increase.
